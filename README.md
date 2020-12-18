@@ -11,10 +11,6 @@ I have tried to use simple building blocks with react-navigation and Stack.Navig
 
 ** Note: This is just a beginers learning APP to undertand the Flow of screens and passing data between screens uni-directional via Navigation Options.
 
-## Live Site
-
-[Live Site](https://austinnoronha.github.io/my-react-website/)
-
 ## Working Gif
 
 <img src="https://github.com/austinnoronha/UI-References-and-Screenshots/blob/main/MyReactNativeApp/MyToDoAppScreens.gif?raw=true" title="ReactNative APp - MyToDo" alt="ReactNative APp - MyToDo"/>
