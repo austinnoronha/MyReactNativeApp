@@ -9,7 +9,7 @@ It has 3 screens:
 
 I have tried to use simple building blocks with react-navigation and Stack.Navigator to control the flow of the screens.
 
-** Note: This is just a beginers learning APP to undertand the Flow of screens and passing data between screens uni-directional via Navigation Options.
+** Note: This is just a begginers learning APP to undertand the Flow of screens and passing data between screens uni-directional via Navigation Options.
 
 ## Working Gif
 
@@ -23,8 +23,7 @@ It's a fun learning app wherein you will learn to create:
 - Stack Navigation
 - Simple Form and Error Handling
 - Flex Styling & MUI Theme
-- Navbar State Managment
-
+- Navbar State Management
 
 --- 
 
@@ -47,7 +46,6 @@ The Expo Client opens up with Metro Builder
 You can open the mobile app in web browser or on the expo client
 
 [Web Browser App runs on Port:19006](http://localhost:19006/)
-
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
@@ -106,3 +104,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
