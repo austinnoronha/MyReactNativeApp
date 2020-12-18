@@ -1,21 +1,38 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { View, Text, Image } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import 'react-native-gesture-handler';
+
+//Screens
+import HomeScreen from './src/screen/HomeScreen';
+import DetailsScreen from './src/screen/DetailsScreen';
+import HelpScreen from './src/screen/HelpScreen';
+import SignInScreen from './src/screen/SignInScreen';
+
+const Stack = createStackNavigator();
 
 export default function App() {
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: {
+            backgroundColor: '#ffd155',
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}
+      >
+        <Stack.Screen name="SignIn" component={SignInScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Details" component={DetailsScreen} options={{ title: 'ToDo - Details Page' }} />
+      </Stack.Navigator>
+    </NavigationContainer> 
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
