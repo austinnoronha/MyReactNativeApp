@@ -1,7 +1,7 @@
 # Overview
 
-This is a simple MyTo application build with ReactNative and MUI Theme
-Its has 3 screens:
+This is a simple mobile application built with ReactNative and MUI Theme
+It has 3 screens:
 
 - SignIn Screen
 - Home Screen
