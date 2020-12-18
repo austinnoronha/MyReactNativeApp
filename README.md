@@ -17,7 +17,7 @@ I have tried to use simple building blocks with react-navigation and Stack.Navig
 
 ## Working Gif
 
-<img src="https://github.com/austinnoronha/UI-References-and-Screenshots/blob/main/MyReactNativeApp/MyToDoAppScreens.webm?raw=true" title="ReactNative APp - MyToDo" alt="ReactNative APp - MyToDo"/>
+<img src="https://github.com/austinnoronha/UI-References-and-Screenshots/blob/main/MyReactNativeApp/MyToDoAppScreens.gif?raw=true" title="ReactNative APp - MyToDo" alt="ReactNative APp - MyToDo"/>
 
 ## The Learning
 
